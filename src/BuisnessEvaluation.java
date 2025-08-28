@@ -20,6 +20,7 @@ public class BuisnessEvaluation {
             }
             earnings[i] = earning;
         }
+
         Buisness myBusiness = new Buisness(earnings);
 
         System.out.println("Enter price-to-earnings ratios for 5 years (0.0 to 10.0):");
