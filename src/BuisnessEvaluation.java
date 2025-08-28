@@ -56,8 +56,8 @@ public class BuisnessEvaluation {
         System.out.println("---------------------------------------");
         // print out all final values, use math. round in case there are multiple decimal points
         for (int i = 0; i < 5; i++) {
-            System.out.println("Year " + (i + 1) + ": $ " + Math.round(myBusiness.getProjectedEarnings()[i] * 100) / 100.0
-                    + "  " +  ratios[i] + "  $" + Math.round(myBusiness.getMarketValue()[i] * 100) / 100.0);
+            System.out.println("Year " + (i + 1) + ": $ " + Math.round(myBusiness.getProjectedEarnings()[i] * 100.0) / 100.0
+                    + "  " +  ratios[i] + "  $" + Math.round(myBusiness.getMarketValue()[i] * 100.0) / 100.0);
         }
         // close scanner and end program
         input.close();
