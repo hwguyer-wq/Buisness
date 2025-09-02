@@ -1,3 +1,8 @@
+//This class represents a buisness with attributes of its earnings and the projected market value with getters and setters
+//It also has a constructor
+//
+//@author Hunter Guyer Sep 2 2025
+
 public class Buisness {
     //intialize arrays
     private double[] projectedEarnings;

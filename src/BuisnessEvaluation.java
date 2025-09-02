@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Tester class to print out the info and calculate earnings
 public class BuisnessEvaluation {
 
     public static void main(String[] args) {
@@ -36,7 +36,7 @@ public class BuisnessEvaluation {
 
             // Keep asking until valid input is given
             while (ratio < 0.0 || ratio > 10.0) {
-                System.out.println("Error: Value must be between 0.0 and 10.0.");
+                System.out.println("Error: The number must be between 0.0 and 10.0.");
                 System.out.print("Year " + (i + 1) + ": ");
                 ratio = input.nextDouble();
             }
@@ -50,9 +50,10 @@ public class BuisnessEvaluation {
             myBusiness.setMarketValue(market, i);
         }
 
-        // styalistic inputs for the output table
+        // stylistic inputs for the output table
         System.out.println();
         System.out.println("Year | Earnings | P/E Ratio | Market Value");
+        // line bar
         System.out.println("---------------------------------------");
         // print out all final values, use math. round in case there are multiple decimal points
         for (int i = 0; i < 5; i++) {
