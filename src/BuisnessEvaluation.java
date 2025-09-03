@@ -12,6 +12,7 @@ public class BuisnessEvaluation {
         // ask for the earnings
         System.out.println("Enter projected earnings for 5 years ($200000 to $500000):");
         for (int i = 0; i < 5; i++) {
+
             System.out.print("Year " + (i + 1) + ": $");
             // catch what we input
             double earning = input.nextDouble();
